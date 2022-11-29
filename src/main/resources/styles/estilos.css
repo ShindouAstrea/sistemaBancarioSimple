@@ -1,0 +1,38 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.base {
+  -fx-background-image:url("../assets/bank.jpg");
+  -fx-background-size: 100% 100%;
+  -fx-background-position: center center;
+ 
+}
+.backdrop {
+    -fx-background-color:#34515e;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+.customButton {
+	
+	-fx-background-color:
+           
+            linear-gradient(to bottom,#599bb3 0%,#599bb3 5%,#408c99 100%);
+            
+	-fx-border-radius:8px;
+        -fx-cursor:default;
+	-fx-display:inline-block;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:20px;
+	-fx-font-weight:bold;
+	-fx-text-decoration:none;
+	
+}
+.customButton:hover {
+	-fx-background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	-fx-background-color:#408c99;
+}
+.baseInputWindow{
+    -fx-background-color:#e0e0e0;
+}
